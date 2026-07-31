@@ -28,7 +28,7 @@ from modules.tv_specific.channel_control import ChannelControl
 class C11KTVHub:
     def __init__(self):
         self.color = ColorOutput()
-        self.config_loader = ConfigLoader()
+        self.config_loader = ConfigLoader(Path(__file__).parent)
         self.config = self.config_loader.load_all()
         self.logger = Logger("C11K-TV-HUB", level=self.config.get("general", {}).get("log_level", "INFO"))
         self.error_handler = ErrorHandler(self.logger)
