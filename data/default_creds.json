@@ -1,0 +1,212 @@
+{
+  "credentials": [
+    {
+      "vendor": "Sony",
+      "model": "BRAVIA",
+      "service": "adb",
+      "username": "",
+      "password": "",
+      "notes": "Root erişimi yok. ADB yetkilendirme gerektirir."
+    },
+    {
+      "vendor": "Sony",
+      "model": "BRAVIA",
+      "service": "telnet",
+      "username": "root",
+      "password": "sony123",
+      "notes": "Eski modellerde telnet açık olabilir."
+    },
+    {
+      "vendor": "Xiaomi",
+      "model": "Mi TV Stick",
+      "service": "adb",
+      "username": "",
+      "password": "",
+      "notes": "ADB root kapalı. Wireless debugging ile bağlanılabilir."
+    },
+    {
+      "vendor": "Xiaomi",
+      "model": "Mi Box",
+      "service": "ssh",
+      "username": "root",
+      "password": "xiaomi123",
+      "notes": "Rootlu cihazlarda ssh sunucusu kurulabilir."
+    },
+    {
+      "vendor": "Nvidia",
+      "model": "Shield TV",
+      "service": "adb",
+      "username": "",
+      "password": "",
+      "notes": "ADB yetkilendirme gerektirir. Root erişimi yok."
+    },
+    {
+      "vendor": "Nvidia",
+      "model": "Shield TV Pro",
+      "service": "ssh",
+      "username": "nvidia",
+      "password": "shield",
+      "notes": "Geliştirici modunda ssh aktif edilebilir."
+    },
+    {
+      "vendor": "Philips",
+      "model": "Android TV",
+      "service": "adb",
+      "username": "",
+      "password": "",
+      "notes": "Varsayılan ADB portu 5555. Yetkilendirme gerekir."
+    },
+    {
+      "vendor": "TCL",
+      "model": "Android TV",
+      "service": "adb",
+      "username": "",
+      "password": "",
+      "notes": "Bazı modellerde 5555 açık gelir."
+    },
+    {
+      "vendor": "Hisense",
+      "model": "Android TV",
+      "service": "adb",
+      "username": "",
+      "password": "",
+      "notes": "ADB yetkilendirme gerektirir."
+    },
+    {
+      "vendor": "Amlogic",
+      "model": "Generic TV Box",
+      "service": "adb",
+      "username": "",
+      "password": "",
+      "notes": "Çoğu Çin malı kutuda 5555 açık ve yetkilendirme yok. Direkt shell alınabilir."
+    },
+    {
+      "vendor": "Amlogic",
+      "model": "Generic TV Box",
+      "service": "telnet",
+      "username": "root",
+      "password": "root",
+      "notes": "Telnet servisi varsa root/root ile giriş yapılabilir."
+    },
+    {
+      "vendor": "Amlogic",
+      "model": "Generic TV Box",
+      "service": "ssh",
+      "username": "root",
+      "password": "toor",
+      "notes": "SSH sunucusu kuruluysa root/toor ile giriş."
+    },
+    {
+      "vendor": "Amlogic",
+      "model": "S905",
+      "service": "adb",
+      "username": "",
+      "password": "",
+      "notes": "USB hata ayıklama açık. root yetkisi ile çalışır."
+    },
+    {
+      "vendor": "MediaTek",
+      "model": "Generic TV Box",
+      "service": "adb",
+      "username": "",
+      "password": "",
+      "notes": "5555 portu açık. Yetkilendirme genellikle yok."
+    },
+    {
+      "vendor": "MediaTek",
+      "model": "MT9600",
+      "service": "telnet",
+      "username": "admin",
+      "password": "admin",
+      "notes": "Telnet admin/admin ile erişilebilir."
+    },
+    {
+      "vendor": "Generic",
+      "model": "STB",
+      "service": "telnet",
+      "username": "root",
+      "password": "password",
+      "notes": "Set-üstü kutularda yaygın şifre."
+    },
+    {
+      "vendor": "Generic",
+      "model": "STB",
+      "service": "telnet",
+      "username": "root",
+      "password": "1234",
+      "notes": "Set-üstü kutularda yaygın şifre."
+    },
+    {
+      "vendor": "Generic",
+      "model": "STB",
+      "service": "telnet",
+      "username": "root",
+      "password": "0000",
+      "notes": "Set-üstü kutularda yaygın şifre."
+    },
+    {
+      "vendor": "Generic",
+      "model": "STB",
+      "service": "ssh",
+      "username": "root",
+      "password": "root",
+      "notes": "SSH root/root ile erişilebilir."
+    },
+    {
+      "vendor": "Generic",
+      "model": "STB",
+      "service": "web",
+      "username": "admin",
+      "password": "admin",
+      "notes": "Web arayüzü admin/admin ile giriş."
+    },
+    {
+      "vendor": "Generic",
+      "model": "STB",
+      "service": "web",
+      "username": "root",
+      "password": "12345",
+      "notes": "Web arayüzü root/12345 ile giriş."
+    },
+    {
+      "vendor": "ZTE",
+      "model": "Android TV",
+      "service": "telnet",
+      "username": "zte",
+      "password": "zte",
+      "notes": "ZTE cihazlarında telnet zte/zte."
+    },
+    {
+      "vendor": "Huawei",
+      "model": "Android TV",
+      "service": "telnet",
+      "username": "root",
+      "password": "huawei",
+      "notes": "Huawei cihazlarında telnet root/huawei."
+    },
+    {
+      "vendor": "Samsung",
+      "model": "Smart TV (Android)",
+      "service": "adb",
+      "username": "",
+      "password": "",
+      "notes": "Samsung Android TV'lerde ADB genelde kapalıdır."
+    },
+    {
+      "vendor": "LG",
+      "model": "Smart TV (Android)",
+      "service": "adb",
+      "username": "",
+      "password": "",
+      "notes": "LG Android TV'lerde ADB genelde kapalıdır."
+    }
+  ],
+  "adb_default_keys": {
+    "allow_root": true,
+    "default_keys": [
+      "adbkey.pub",
+      "adbkey"
+    ],
+    "notes": "Eğer cihaz rootlu ise ve /data/misc/adb/adb_keys dosyasına bu anahtarlar eklenirse kalıcı erişim sağlanır."
+  }
+}
