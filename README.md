@@ -2,6 +2,9 @@
 
 > Red Team toolkit to remotely exploit Android TV boxes, smart TVs, and STBs via ADB, Metasploit, and custom CVE exploits.
 
+**Maintained by:** OfficalC11K  
+**Discord:** deniz.pro
+
 ---
 
 ## 📌 Overview
@@ -47,6 +50,6 @@ The tool is written in Python 3 and optimized for **Kali Linux**.
 ## 🔧 Installation (Kali Linux)
 
 ```bash
-git clone https://github.com/OfficalC11K/C11K-TV-HUB.git
+git clone https://github.com/yourusername/C11K-TV-HUB.git
 cd C11K-TV-HUB
 sudo python3 install.py
