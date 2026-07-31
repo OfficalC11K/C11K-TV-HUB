@@ -1,0 +1,139 @@
+{
+  "fingerprints": [
+    {
+      "brand": "Sony",
+      "model": "BRAVIA 4K",
+      "fingerprint": "Sony/BRVIA/BRVIA:12/STT/123:user/release-keys",
+      "android_version": "12",
+      "sdk": 31,
+      "security_patch": "2026-05-01",
+      "notes": "Sony BRAVIA XR serisi"
+    },
+    {
+      "brand": "Sony",
+      "model": "BRAVIA OLED",
+      "fingerprint": "Sony/BRVIA_OLED/BRVIA:11/STT/456:user/release-keys",
+      "android_version": "11",
+      "sdk": 30,
+      "security_patch": "2025-12-01",
+      "notes": "Sony OLED TV'ler"
+    },
+    {
+      "brand": "Xiaomi",
+      "model": "Mi TV Stick",
+      "fingerprint": "Xiaomi/mitv_stick/mitv:11/RTT/789:user/release-keys",
+      "android_version": "11",
+      "sdk": 30,
+      "security_patch": "2026-01-01",
+      "notes": "Mi TV Stick 4K"
+    },
+    {
+      "brand": "Xiaomi",
+      "model": "Mi Box S",
+      "fingerprint": "Xiaomi/mibox/mibox:10/QTT/123:user/release-keys",
+      "android_version": "10",
+      "sdk": 29,
+      "security_patch": "2025-06-01",
+      "notes": "Mi Box S 4K"
+    },
+    {
+      "brand": "Nvidia",
+      "model": "Shield TV Pro",
+      "fingerprint": "Nvidia/shield/shield:11/STT/456:user/release-keys",
+      "android_version": "11",
+      "sdk": 30,
+      "security_patch": "2026-02-01",
+      "notes": "Nvidia Shield TV Pro 2019"
+    },
+    {
+      "brand": "Nvidia",
+      "model": "Shield TV",
+      "fingerprint": "Nvidia/shield/shield:9/QTT/789:user/release-keys",
+      "android_version": "9",
+      "sdk": 28,
+      "security_patch": "2024-11-01",
+      "notes": "Nvidia Shield TV 2017"
+    },
+    {
+      "brand": "Philips",
+      "model": "Android TV",
+      "fingerprint": "Philips/androidtv/android:11/STT/123:user/release-keys",
+      "android_version": "11",
+      "sdk": 30,
+      "security_patch": "2025-09-01",
+      "notes": "Philips 8000 serisi"
+    },
+    {
+      "brand": "TCL",
+      "model": "Android TV",
+      "fingerprint": "TCL/androidtv/android:10/QTT/456:user/release-keys",
+      "android_version": "10",
+      "sdk": 29,
+      "security_patch": "2025-03-01",
+      "notes": "TCL C715 serisi"
+    },
+    {
+      "brand": "Hisense",
+      "model": "Android TV",
+      "fingerprint": "Hisense/androidtv/android:11/STT/789:user/release-keys",
+      "android_version": "11",
+      "sdk": 30,
+      "security_patch": "2025-07-01",
+      "notes": "Hisense U7 serisi"
+    },
+    {
+      "brand": "Amlogic",
+      "model": "Generic TV Box",
+      "fingerprint": "Amlogic/generic/generic:9/PIE/123:user/release-keys",
+      "android_version": "9",
+      "sdk": 28,
+      "security_patch": "2024-01-01",
+      "notes": "Çin malı Amlogic S905/S912 kutular"
+    },
+    {
+      "brand": "Amlogic",
+      "model": "Generic TV Box",
+      "fingerprint": "Amlogic/generic/generic:10/Q/456:user/release-keys",
+      "android_version": "10",
+      "sdk": 29,
+      "security_patch": "2024-06-01",
+      "notes": "Amlogic S905X3/S905X4"
+    },
+    {
+      "brand": "MediaTek",
+      "model": "Generic TV Box",
+      "fingerprint": "MediaTek/generic/generic:11/R/789:user/release-keys",
+      "android_version": "11",
+      "sdk": 30,
+      "security_patch": "2024-12-01",
+      "notes": "MediaTek MT9600/MT9612"
+    },
+    {
+      "brand": "Samsung",
+      "model": "Smart TV (Android)",
+      "fingerprint": "Samsung/androidtv/android:10/QTT/123:user/release-keys",
+      "android_version": "10",
+      "sdk": 29,
+      "security_patch": "2025-05-01",
+      "notes": "Samsung QLED serisi"
+    },
+    {
+      "brand": "LG",
+      "model": "Smart TV (Android)",
+      "fingerprint": "LG/androidtv/android:11/STT/456:user/release-keys",
+      "android_version": "11",
+      "sdk": 30,
+      "security_patch": "2025-08-01",
+      "notes": "LG OLED serisi"
+    },
+    {
+      "brand": "ZTE",
+      "model": "Android TV STB",
+      "fingerprint": "ZTE/stb/stb:10/QTT/789:user/release-keys",
+      "android_version": "10",
+      "sdk": 29,
+      "security_patch": "2024-09-01",
+      "notes": "ZTE set-üstü kutular"
+    }
+  ]
+}

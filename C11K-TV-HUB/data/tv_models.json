@@ -1,0 +1,136 @@
+{
+  "models": [
+    {
+      "brand": "Sony",
+      "models": ["BRAVIA XR", "BRAVIA OLED", "BRAVIA 4K", "BRAVIA 8K"],
+      "manufacturers": ["Sony"],
+      "adb_default": false,
+      "ports": [5555],
+      "root_possible": true,
+      "cves": ["CVE-2026-0073", "CVE-2024-7890"],
+      "android_versions": ["10", "11", "12"],
+      "notes": "Sony TV'lerde ADB kapalı gelir. Geliştirici seçeneklerinden açılmalıdır."
+    },
+    {
+      "brand": "Xiaomi",
+      "models": ["Mi TV Stick", "Mi Box S", "Mi TV P1", "Mi QLED TV"],
+      "manufacturers": ["Xiaomi"],
+      "adb_default": false,
+      "ports": [5555],
+      "root_possible": false,
+      "cves": ["CVE-2026-0073"],
+      "android_versions": ["10", "11"],
+      "notes": "Xiaomi cihazlarında ADB yetkilendirme gerektirir. Wireless debugging ile bağlanılabilir."
+    },
+    {
+      "brand": "Nvidia",
+      "models": ["Shield TV Pro", "Shield TV", "Shield TV 2017", "Shield TV 2019"],
+      "manufacturers": ["Nvidia"],
+      "adb_default": false,
+      "ports": [5555],
+      "root_possible": false,
+      "cves": [],
+      "android_versions": ["9", "10", "11"],
+      "notes": "Shield TV güvenli cihazdır. ADB yetkilendirme zorunludur."
+    },
+    {
+      "brand": "Philips",
+      "models": ["8000 Series", "9000 Series", "OLED 800 Series"],
+      "manufacturers": ["Philips"],
+      "adb_default": false,
+      "ports": [5555],
+      "root_possible": false,
+      "cves": ["CVE-2024-7890"],
+      "android_versions": ["10", "11"],
+      "notes": "Philips TV'lerde ADB yetkilendirme gerektirir."
+    },
+    {
+      "brand": "TCL",
+      "models": ["C715", "C815", "P715", "P815"],
+      "manufacturers": ["TCL"],
+      "adb_default": false,
+      "ports": [5555],
+      "root_possible": false,
+      "cves": ["CVE-2024-7890"],
+      "android_versions": ["10", "11"],
+      "notes": "TCL cihazlarında ADB yetkilendirme gerektirir."
+    },
+    {
+      "brand": "Hisense",
+      "models": ["U7G", "U8G", "A7G", "A6G"],
+      "manufacturers": ["Hisense"],
+      "adb_default": false,
+      "ports": [5555],
+      "root_possible": false,
+      "cves": [],
+      "android_versions": ["10", "11"],
+      "notes": "Hisense TV'lerde ADB yetkilendirme gerektirir."
+    },
+    {
+      "brand": "Amlogic",
+      "models": ["S905", "S905X", "S905X3", "S905X4", "S912", "S922X"],
+      "manufacturers": ["Amlogic"],
+      "adb_default": true,
+      "ports": [5555, 5556, 5557, 5558],
+      "root_possible": true,
+      "cves": ["CVE-2026-0073", "CVE-2025-4321", "CVE-2023-5678"],
+      "android_versions": ["7", "8", "9", "10", "11"],
+      "notes": "Çin malı kutularda ADB varsayılan açık. Root erişimi genelde mevcut."
+    },
+    {
+      "brand": "MediaTek",
+      "models": ["MT9600", "MT9612", "MT9611", "MT9602"],
+      "manufacturers": ["MediaTek"],
+      "adb_default": true,
+      "ports": [5555, 5556],
+      "root_possible": true,
+      "cves": ["CVE-2026-0073", "CVE-2025-4321"],
+      "android_versions": ["10", "11", "12"],
+      "notes": "MediaTek işlemcili kutularda ADB açık ve root genelde mümkün."
+    },
+    {
+      "brand": "Samsung",
+      "models": ["QLED 4K", "QLED 8K", "Neo QLED"],
+      "manufacturers": ["Samsung"],
+      "adb_default": false,
+      "ports": [5555],
+      "root_possible": false,
+      "cves": [],
+      "android_versions": ["10", "11"],
+      "notes": "Samsung TV'lerde ADB kapalıdır. Geliştirici modu açılmalıdır."
+    },
+    {
+      "brand": "LG",
+      "models": ["OLED C1", "OLED G1", "OLED B1", "NanoCell"],
+      "manufacturers": ["LG"],
+      "adb_default": false,
+      "ports": [5555],
+      "root_possible": false,
+      "cves": [],
+      "android_versions": ["10", "11"],
+      "notes": "LG TV'lerde ADB kapalıdır. Geliştirici modu açılmalıdır."
+    },
+    {
+      "brand": "ZTE",
+      "models": ["STB", "Android TV Box"],
+      "manufacturers": ["ZTE"],
+      "adb_default": true,
+      "ports": [5555, 5556],
+      "root_possible": true,
+      "cves": ["CVE-2023-5678"],
+      "android_versions": ["9", "10"],
+      "notes": "ZTE set-üstü kutularda ADB açık ve root erişimi var."
+    },
+    {
+      "brand": "Generic",
+      "models": ["TV Box", "Android TV Stick", "Smart Box"],
+      "manufacturers": ["Generic", "Unknown"],
+      "adb_default": true,
+      "ports": [5555, 5556, 5557, 5558, 5559],
+      "root_possible": true,
+      "cves": ["CVE-2026-0073", "CVE-2025-4321", "CVE-2023-5678"],
+      "android_versions": ["7", "8", "9", "10", "11", "12"],
+      "notes": "Markasız Çin malı kutularda ADB neredeyse her zaman açık. En kolay hedef."
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "interface": {
+    "name": "eth0",
+    "fallback": "wlan0",
+    "auto_detect": true
+  },
+  "scanning": {
+    "subnet": "192.168.1.0/24",
+    "subnet_alt": "10.0.0.0/24",
+    "subnet_alt2": "172.16.0.0/24",
+    "timeout_seconds": 30,
+    "parallel_hosts": 50,
+    "port_range_start": 1,
+    "port_range_end": 65535,
+    "interesting_ports": [5555, 5556, 5557, 5558, 5559, 4444, 8080, 8000],
+    "ping_sweep": {
+      "enabled": true,
+      "timeout_ms": 2000,
+      "retries": 2
+    },
+    "os_detection": {
+      "enabled": true,
+      "aggressive": false
+    },
+    "service_detection": {
+      "enabled": true,
+      "intensity": 7
+    }
+  },
+  "nmap": {
+    "binary_path": "nmap",
+    "default_args": "-sV --open -T4 --min-rate=1000",
+    "scan_types": {
+      "quick": "-T4 -F",
+      "normal": "-T4 -p-",
+      "aggressive": "-T4 -A -p-"
+    },
+    "exclude_hosts": ["192.168.1.1", "192.168.1.254"]
+  },
+  "adb_connection": {
+    "default_port": 5555,
+    "port_range_start": 30000,
+    "port_range_end": 50000,
+    "connect_timeout_seconds": 10,
+    "retry_interval_seconds": 2,
+    "max_retries": 5,
+    "wireless_debugging": {
+      "enabled": true,
+      "pairing_port": 38741,
+      "qr_code_parsing": true
+    }
+  },
+  "arp_scan": {
+    "enabled": true,
+    "timeout_seconds": 5,
+    "use_sudo": true,
+    "binary_path": "arp-scan"
+  },
+  "dns": {
+    "enabled": true,
+    "servers": ["8.8.8.8", "1.1.1.1"],
+    "reverse_lookup": true,
+    "timeout_seconds": 3
+  },
+  "mac_vendors": {
+    "enabled": true,
+    "database_path": "data/mac_vendors.json",
+    "interesting_vendors": ["sony", "xiaomi", "nvidia", "philips", "samsung", "lg", "amlogic", "mediatek", "realtek"]
+  },
+  "packet_filters": {
+    "enabled": false,
+    "filter_ports": [53, 67, 68, 80, 443],
+    "filter_ips": []
+  },
+  "traffic": {
+    "use_proxy": false,
+    "proxy": {
+      "type": "socks5",
+      "host": "127.0.0.1",
+      "port": 9050,
+      "username": "",
+      "password": ""
+    },
+    "tls_verify": false
+  },
+  "reporting": {
+    "save_scan_results": true,
+    "output_format": "json",
+    "output_dir": "outputs/scans"
+  }
+}
