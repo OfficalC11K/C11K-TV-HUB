@@ -47,6 +47,6 @@ The tool is written in Python 3 and optimized for **Kali Linux**.
 ## 🔧 Installation (Kali Linux)
 
 ```bash
-git clone https://github.com/yourusername/C11K-TV-HUB.git
+git clone https://github.com/OfficalC11K/C11K-TV-HUB.git
 cd C11K-TV-HUB
 sudo python3 install.py
