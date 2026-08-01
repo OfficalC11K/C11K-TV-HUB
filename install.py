@@ -71,8 +71,8 @@ class C11KInstaller:
     def run(self):
         print("""
 ╔═══════════════════════════════════════════╗
-║   C11K-TV-HUB - Kali Kurulum Aracı       ║
-║   Yapımcı: C11k AI                       ║
+║   C11K-TV-HUB - Kali Kurulum Aracı        ║
+║   Yapımcı: deniz.pro                      ║
 ╚═══════════════════════════════════════════╝
         """)
         if self.is_kali:
