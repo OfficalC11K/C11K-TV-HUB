@@ -1,0 +1,7 @@
+{
+  "fingerprints": [
+    {"brand": "Sony", "model": "BRAVIA", "fingerprint": "Sony/BRVIA/BRVIA:12/STT/123:user/release-keys", "android_version": "12"},
+    {"brand": "Xiaomi", "model": "Mi TV Stick", "fingerprint": "Xiaomi/mitv_stick/mitv:11/RTT/789:user/release-keys", "android_version": "11"},
+    {"brand": "Amlogic", "model": "Generic", "fingerprint": "Amlogic/generic/generic:9/PIE/123:user/release-keys", "android_version": "9"}
+  ]
+}

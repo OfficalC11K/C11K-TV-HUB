@@ -1,0 +1,40 @@
+{
+  "cves": [
+    {
+      "id": "CVE-2026-0073",
+      "name": "ADB TLS Authentication Bypass",
+      "description": "Android ADB servisinde TLS sertifika tipi uyuşmazlığı nedeniyle yetkilendirme atlanabilir.",
+      "affected_versions": "Android 14, 15, 16",
+      "affected_models": ["Amlogic", "MediaTek", "Sony BRAVIA", "Xiaomi Mi TV"],
+      "exploit_file": "exploits/CVE-2026-0073/exploit.py",
+      "success_rate": 0.85,
+      "requires_root": false,
+      "requires_wireless_debugging": true,
+      "port": 5555
+    },
+    {
+      "id": "CVE-2025-4321",
+      "name": "MediaTek Bootloader Unlock",
+      "description": "MediaTek işlemcili cihazlarda bootloader kilidi zayıf anahtar ile kaldırılabilir.",
+      "affected_versions": "Android 10, 11, 12",
+      "affected_models": ["Amlogic S905", "Amlogic S912", "MediaTek MT9600"],
+      "exploit_file": "exploits/CVE-2025-4321/exploit.py",
+      "success_rate": 0.65,
+      "requires_root": false,
+      "requires_wireless_debugging": false,
+      "port": 5555
+    },
+    {
+      "id": "CVE-2023-5678",
+      "name": "ADB Over TCP Default Port Exposure",
+      "description": "Bazı cihazlar ADB'yi varsayılan olarak 5555 portunda açar ve yetkilendirme istemez.",
+      "affected_versions": "Android 7, 8, 9",
+      "affected_models": ["Çin malı TV box'lar", "Raspberry Pi Android"],
+      "exploit_file": "",
+      "success_rate": 0.95,
+      "requires_root": false,
+      "requires_wireless_debugging": false,
+      "port": 5555
+    }
+  ]
+}

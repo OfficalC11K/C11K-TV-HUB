@@ -1,0 +1,49 @@
+{
+  "models": [
+    {
+      "brand": "Sony",
+      "models": ["BRAVIA XR", "BRAVIA OLED"],
+      "adb_default": false,
+      "ports": [5555],
+      "root_possible": true,
+      "cves": ["CVE-2026-0073"],
+      "android_versions": ["10", "11", "12"]
+    },
+    {
+      "brand": "Xiaomi",
+      "models": ["Mi TV Stick", "Mi Box S"],
+      "adb_default": false,
+      "ports": [5555],
+      "root_possible": false,
+      "cves": ["CVE-2026-0073"],
+      "android_versions": ["10", "11"]
+    },
+    {
+      "brand": "Amlogic",
+      "models": ["S905", "S912", "S905X3"],
+      "adb_default": true,
+      "ports": [5555, 5556],
+      "root_possible": true,
+      "cves": ["CVE-2026-0073", "CVE-2025-4321", "CVE-2023-5678"],
+      "android_versions": ["7", "8", "9", "10", "11"]
+    },
+    {
+      "brand": "MediaTek",
+      "models": ["MT9600", "MT9612"],
+      "adb_default": true,
+      "ports": [5555],
+      "root_possible": true,
+      "cves": ["CVE-2026-0073", "CVE-2025-4321"],
+      "android_versions": ["10", "11", "12"]
+    },
+    {
+      "brand": "Generic",
+      "models": ["TV Box", "Android TV Stick"],
+      "adb_default": true,
+      "ports": [5555, 5556, 5557],
+      "root_possible": true,
+      "cves": ["CVE-2026-0073", "CVE-2025-4321", "CVE-2023-5678"],
+      "android_versions": ["7", "8", "9", "10", "11"]
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "general": {
+    "debug": false,
+    "log_level": "INFO",
+    "timeout": 30,
+    "retry_count": 3,
+    "thread_count": 10,
+    "temp_dir": "/tmp/c11k-tv",
+    "output_dir": "outputs"
+  },
+  "network": {
+    "interface": "eth0",
+    "scan_subnet": "192.168.1.0/24",
+    "scan_ports": [5555, 5556, 5557, 5558, 5559],
+    "scan_intensity": "aggressive",
+    "nmap_args": "-sV --open -T4"
+  },
+  "adb": {
+    "binary_path": "adb",
+    "default_port": 5555,
+    "connection_timeout": 15,
+    "max_connection_retries": 5,
+    "wireless_debugging": {
+      "enabled": true,
+      "port_range_start": 30000,
+      "port_range_end": 50000
+    }
+  },
+  "exploit": {
+    "enabled_cves": ["CVE-2026-0073", "CVE-2025-4321"],
+    "auto_detect": true,
+    "auth_bypass": {
+      "method": "tls_fingerprint",
+      "cert_path": "exploits/CVE-2026-0073/cert.pem",
+      "key_path": "exploits/CVE-2026-0073/key.pem"
+    },
+    "privesc": {
+      "enabled": true,
+      "methods": ["mediatek_bootloader", "system_app_abuse", "su_binary_check"]
+    }
+  },
+  "payload": {
+    "type": "meterpreter",
+    "lhost": "0.0.0.0",
+    "lport": 4444,
+    "use_stager": false,
+    "apk_export_path": "outputs/payloads/generated.apk",
+    "msfvenom_platform": "android",
+    "extra_args": ""
+  },
+  "persistence": {
+    "enabled": true,
+    "methods": ["adb_key_injection", "init_d_script", "system_app_install"],
+    "cleanup_on_exit": false,
+    "reboot_persist": true
+  },
+  "tv_control": {
+    "hdmi_cec": {
+      "enabled": true,
+      "auto_turn_on": true,
+      "switch_input": true
+    },
+    "screencast": {
+      "quality": "high",
+      "framerate": 30
+    },
+    "audio": {
+      "steal_microphone": false,
+      "record_internal_audio": false
+    },
+    "remote": {
+      "key_delay_ms": 100,
+      "default_keycodes": {
+        "power": 26,
+        "home": 3,
+        "back": 4,
+        "enter": 66
+      }
+    }
+  },
+  "stealth": {
+    "hide_console": false,
+    "clear_device_logs": true,
+    "encrypt_traffic": false,
+    "proxy": {
+      "enabled": false,
+      "type": "socks5",
+      "host": "127.0.0.1",
+      "port": 9050
+    }
+  },
+  "logging": {
+    "log_to_file": false,
+    "log_dir": "",
+    "console_log_level": "INFO"
+  }
+}

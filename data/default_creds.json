@@ -1,0 +1,12 @@
+{
+  "credentials": [
+    {"vendor": "Amlogic", "model": "Generic", "service": "adb", "username": "", "password": "", "notes": "5555 acik"},
+    {"vendor": "Amlogic", "model": "Generic", "service": "telnet", "username": "root", "password": "root", "notes": ""},
+    {"vendor": "MediaTek", "model": "Generic", "service": "adb", "username": "", "password": "", "notes": "5555 acik"},
+    {"vendor": "Sony", "model": "BRAVIA", "service": "adb", "username": "", "password": "", "notes": "yetkilendirme gerekir"}
+  ],
+  "adb_default_keys": {
+    "allow_root": true,
+    "default_keys": ["adbkey.pub"]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "keycodes": {
+    "power": 26,
+    "home": 3,
+    "back": 4,
+    "menu": 82,
+    "enter": 66,
+    "dpad_up": 19,
+    "dpad_down": 20,
+    "dpad_left": 21,
+    "dpad_right": 22,
+    "dpad_center": 23,
+    "volume_up": 24,
+    "volume_down": 25,
+    "volume_mute": 164,
+    "channel_up": 166,
+    "channel_down": 167,
+    "media_play_pause": 85,
+    "media_stop": 86,
+    "media_next": 87,
+    "media_previous": 88
+  },
+  "key_action_map": {
+    "power": "cihazi uyku/uyandir",
+    "home": "ana ekrana don",
+    "back": "geri git",
+    "menu": "menu ac",
+    "enter": "sec"
+  }
+}
